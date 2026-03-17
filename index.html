@@ -313,47 +313,67 @@
           <!-- Proyectos en GitHub -->
           <div class="projects-section text-center">
             <h3 class="mb-3">Proyectos Destacados</h3>
-            <div class="d-flex justify-content-center align-items-start flex-wrap">
-              <!-- Glitchmatic -->
-              <div style="width: 50%; max-width: 400px; padding: 10px;">
-                <a href="https://pixelsup.itch.io/glitchmatic" target="_blank">
-                  <img src="img/glitchmatic.png" alt="Glitchmatic Project" style="width: 100%; height: auto;">
-                </a>
-              </div>
 
-              <!-- Contenedor para las imágenes de la derecha -->
-              <div style="width: 50%; max-width: 400px; padding: 10px;">
+            <!-- Bloque superior -->
+            <div style="
+    display: grid;
+    grid-template-columns: 373px 405px; /* 10% menos */
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+  ">
+              <!-- Columna izquierda -->
+              <div style="display: flex; flex-direction: column; align-items: center; width: 373px;">
+
+                <!-- Glitchmatic -->
+                <div style="width: 373px; height: 597px; margin-bottom: 20px;">
+                  <a href="https://pixelsup.itch.io/glitchmatic" target="_blank">
+                    <img src="img/glitchmatic.png"
+                      style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                  </a>
+                </div>
+
                 <!-- 51 Assault -->
-                <div style="margin-bottom: 20px;">
+                <div style="width: 373px; height: 597px; margin-bottom: 20px;">
                   <a href="https://github.com/PoceroJunior/51-Assault" target="_blank">
-                    <img src="img/51assault.png" alt="51 Assault Project" style="width: 100%; height: auto;">
+                    <img src="img/51assault.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
                   </a>
                 </div>
-                <!-- The B Island -->
-                <div>
-                  <a href="https://github.com/hotdogwithdog/The-b-Island" target="_blank">
-                    <img src="img/thebisland.png" alt="The B Island Project"
-                      style="width: 96%; height: auto; display: block; margin: 0 auto;">
-                  </a>
-                </div>
-              </div>
-            </div>
 
-            <!-- GyroSweeper y Duckshot centrados debajo -->
-            <div class="d-flex justify-content-center mt-4">
-              <!-- GyroSweeper -->
-              <div style="padding: 10px;">
-                <a href="https://github.com/SergioZepol/GyroSweeper" target="_blank">
-                  <img src="img/GyroSweeper.png" alt="GyroSweeper Project"
-                    style="width: 300px; height: auto; display: block;">
-                </a>
+                <!-- DuckShot VR (ahora aquí) -->
+                <div style="width: 373px;">
+                  <a href="https://github.com/SergioZepol/DuckShotVR" target="_blank">
+                    <img src="img/duckshot.png" style="width: 100%; height: auto; display: block;">
+                  </a>
+                </div>
+
               </div>
-              <!-- Duckshot -->
-              <div style="padding: 10px;">
-                <a href="https://github.com/SergioZepol/DuckShotVR" target="_blank">
-                  <img src="img/duckshot.png" alt="Duckshot Project"
-                    style="width: 300px; height: auto; display: block;">
-                </a>
+
+              <!-- Columna derecha -->
+              <div style="display: flex; flex-direction: column; align-items: center; width: 405px;">
+
+                <!-- Algorithmics GameJam -->
+                <div style="width: 405px; height: 597px; margin-bottom: 20px;">
+                  <a href="https://github.com/SergioZepol/AlgorithmicsSpaceGameJam" target="_blank">
+                    <img src="img/assetspacegamejam.jpg"
+                      style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                  </a>
+                </div>
+
+                <!-- The B Island -->
+                <div style="width: 405px; margin-bottom: 20px;">
+                  <a href="https://github.com/hotdogwithdog/The-b-Island" target="_blank">
+                    <img src="img/thebisland.png" style="width: 100%; height: auto; display: block;">
+                  </a>
+                </div>
+
+                <!-- GyroSweeper -->
+                <div style="width: 405px;">
+                  <a href="https://github.com/SergioZepol/GyroSweeper" target="_blank">
+                    <img src="img/GyroSweeper.png" style="width: 100%; height: auto; display: block;">
+                  </a>
+                </div>
+
               </div>
             </div>
           </div>
